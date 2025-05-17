@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sew Good with Sue</title>
+  <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="logo.png">
+</head>
+<body>
+  <header>
+    <div class="header-logo">
+      <img src="logo.png" width="75" height="75">
+      <div class="logo">Sew Good with Sue</div>
+    </div>
+    <nav class="nav-links">
+      <a href="#">Beginner's Guide</a>
+      <a href="#">Fabric Selection</a>
+      <a href="#">Classes</a>
+      <a href="#">About me</a>
+    </nav>
+    <div class="header-buttons">
+      <button class="sign-in">Sign in</button>
+      <button class="join">Join for free</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <img src="logo.png" width="400" height="400">
+    <h1>Enhance your skills and<br>discover the joy of sewing</h1>
+    <button class="cta">get started</button>
+  </section>
+
+  <section class="features">
+    <div class="feature">
+      <div class="feature-icon-wrap">
+        <img src="spoolss.png" width="70" height="70" class="feature-icon-img">
+      </div>
+      <div class="feature-text">
+        <h3>Beginner Classes</h3>
+        <p>Explore a world of vibrant fabrics and unleash your creativity.</p>
+      </div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon-wrap">
+        <img src="book.png" width="70" height="70" class="feature-icon-img">
+      </div>
+      <div class="feature-text">
+        <h3>Clothing Classes</h3>
+        <p>Create or tailor your own clothing with me!</p>
+      </div>
+    </div>
+    <div class="feature">
+      <div class="feature-icon-wrap">
+        <img src="fire.png" width="70" height="70" class="feature-icon-img">
+      </div>
+      <div class="feature-text">
+        <h3>Group Classes</h3>
+        <p>Join a group of sewists and learn together!</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials">
+    <h2>Join Sew Good with Sue community and connect with fellow sewing enthusiasts</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial">
+        <img src="quote.png" width="50" height="35" class="quote-img">
+        <p>I'm hooked on sewing, it's pure joy. Im so glad I found this site and got to sew with Sue!</p>
+        <div class="user">
+          <div class="avatar"></div>
+          <div>
+            <strong>Olivia R.</strong><br>
+            Designer at Boutique
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <img src="quote.png" width="50" height="35" class="quote-img">
+        <p>This site ignited my love for sewing. 10/10! The classes are great and the community is so supportive!</p>
+        <div class="user">
+          <div class="avatar"></div>
+          <div>
+            <strong>Ethan W.</strong><br>
+            Fashion Blogger
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <img src="quote.png" width="50" height="35" class="quote-img">
+        <p>Learning sewing has allowed me to express my creativity and make unique pieces that are truly one of a kind!</p>
+        <div class="user">
+          <div class="avatar"></div>
+          <div>
+            <strong>Sophie B.</strong><br>
+            Fashion Student
+          </div>
+        </div>
+      </div>
+      <div class="testimonial">
+        <img src="quote.png" width="50" height="35" class="quote-img">
+        <p>I love coming to classes with Sue, she is so patient and helpful! I've learned so much!</p>
+        <div class="user">
+          <div class="avatar"></div>
+          <div>
+            <strong>Nora P.</strong><br>
+            DIY Enthusiast
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="plans">
+    <h2>Explore our membership plans</h2>
+    <div class="plan-cards">
+      <div class="plan">
+        <div class="plan-title">Basic</div>
+        <div class="plan-price">$19<span>/ month</span></div>
+        <ul>
+          <li>✔️ New sewing patterns weekly</li>
+          <li>✔️ Free access to our Fabric selection</li>
+          <li>✔️ Join our sewing community</li>
+        </ul>
+        <button>Start Learning</button>
+      </div>
+      <div class="plan">
+        <div class="plan-title">Premium</div>
+        <div class="plan-price">$25<span>/ month</span></div>
+        <ul>
+          <li>✔️ Everything in Basic</li>
+          <li>✔️ Exclusive sewing tutorials</li>
+          <li>✔️ Free access to our Thread collection</li>
+        </ul>
+        <button>Upgrade to Premium</button>
+      </div>
+      <div class="plan">
+        <div class="plan-title">Premium Plus</div>
+        <div class="plan-price">$29<span>/ month</span></div>
+        <ul>
+          <li>✔️ Everything in Premium</li>
+          <li>✔️ Free access to our Button collection</li>
+          <li>✔️ 1 on 1 sewing lessons with Sue!</li>
+        </ul>
+        <button>Get the best deal!</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="filter-modal">
+    <div class="filter-modal-box">
+      <div class="filter-modal-header">
+        <span class="filter-modal-title">Personalize your experience</span>
+      </div>
+      <div class="filter-modal-section">
+        <label class="filter-label">Select budget</label>
+        <div class="filter-slider-double">
+          <div class="slider-track"></div>
+          <input type="range" min="$100" max="1000" value="100" class="range-min" id="rangeMin">
+          <input type="range" min="100" max="1000" value="1000" class="range-max" id="rangeMax">
+        </div>
+        <div class="filter-budget-inputs">
+          <div>
+            <label>Min. amount</label>
+            <input type="number" value="100" class="filter-input" id="minValue" min="100" max="1000">
+          </div>
+          <div>
+            <label>Max. amount</label>
+            <input type="number" value="1000" class="filter-input" id="maxValue" min="100" max="1000">
+          </div>
+        </div>
+      </div>
+      <div class="filter-modal-section">
+        <label class="filter-label">Course type</label>
+        <div class="filter-course-types">
+          <div class="filter-course-type selected">
+            <img src="beginner.png" alt="Beginner" class="filter-course-icon">
+            <div>Beginner</div>
+          </div>
+          <div class="filter-course-type">
+            <img src="intermediate.png" alt="Intermediate" class="filter-course-icon">
+            <div>Intermediate Level</div>
+          </div>  
+          <div class="filter-course-type">
+            <img src="advanced.png" alt="Advanced" class="filter-course-icon">
+            <div>Advanced</div>
+          </div>
+        </div>
+      </div>
+      <div class="filter-modal-section">
+        <label class="filter-label">Number of sessions and duration</label>
+        <div class="filter-session-row">
+          <div>
+            <label>No of sessions</label>
+            <select class="filter-input">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div>
+            <label>Session duration(hrs)</label>
+            <select class="filter-input">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+            </select>
+          </div>
+          <div class="filter-checkbox-group">
+            <label class = "filter-label">Materials needed</label>
+            <div>
+              <label><input type="checkbox" checked> Fabric</label>
+              <label><input type="checkbox" checked> Sewing machine</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="filter-modal-section">
+        <label class="filter-label">Extras</label>
+        <div class="filter-checkbox-row">
+          <label><input type="checkbox" checked> Finger Food</label>
+          <label><input type="checkbox" checked> Drinks</label>
+          <label><input type="checkbox" checked> 1 on 1 Lessons</label>
+        </div>
+      </div>
+      <div class="filter-modal-actions">
+        <button class="filter-reset">Reset</button>
+        <button class="filter-apply">Apply filters</button>
+      </div>
+    </div>
+  </section>
+  <section class="newsletter">
+    <h2 class="newsletter-title">Start sewing with Sue today</h2>
+    <form class="newsletter-form">
+      <input type="email" placeholder="Enter email for updates" class="newsletter-input">
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="logo.png" width="50" height="50">
+        <div>Sew Good with Sue</div>
+      </div>
+      <div>
+        <h4>About our mission</h4>
+        <ul>
+          <li>Our Story</li>
+          <li>Join the team!</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Need help?</h4>
+        <ul>
+          <li>get in touch</li>
+          <li>Questions & Answers</li>
+          <li>Need assistance?</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Join our sewing community</h4>
+        <ul>
+          <li>Follow us on Instagram</li>
+          <li>Follow us on X</li>
+          <li>Join our sewing community on Facebook</li>
+        </ul>
+      </div>
+      <div class="footer-apps">
+        <button class="app-btn">Available on the<br>App Store</button>
+        <button class="app-btn">Install from the<br>Google Play Store</button>
+      </div>
+    </div>
+  </footer>
+  <script src="meow.js"></script>
+</body>
+</html>

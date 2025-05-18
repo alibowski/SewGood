@@ -466,7 +466,6 @@ button:hover,
   z-index: 2;
 }
 
-/* Keep the default .filter-input for other uses */
 .filter-input {
   font-family: inherit;
   font-size: 1.1em;
@@ -557,7 +556,6 @@ button:hover,
   font-weight: bold;
 }
 
-/* Custom double slider */
 .filter-slider-double {
   position: relative;
   width: 100%;
